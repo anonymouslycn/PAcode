@@ -1,0 +1,232 @@
+===================
+multiples of 1024:
+===================
+
+Size 1024:
+Time for bitonic_CUDA: 136.958 ms
+Time for bitonic_OpenCL: 84.016 ms
+Time for Bitonicsort_CPU: 0.245 ms
+Time for STL: 0.134 ms
+
+Size 2048:
+Time for bitonic_CUDA: 113.458 ms
+Time for bitonic_OpenCL: 80.722 ms
+Time for Bitonicsort_CPU: 0.521 ms
+Time for STL: 0.256 ms
+
+Size 4096:
+Time for bitonic_CUDA: 115.357 ms
+Time for bitonic_OpenCL: 88.486 ms
+Time for Bitonicsort_CPU: 1.782 ms
+Time for STL: 0.584 ms
+
+Size 8192:
+Time for bitonic_CUDA: 116.999 ms
+Time for bitonic_OpenCL: 89.489 ms
+Time for Bitonicsort_CPU: 3.341 ms
+Time for STL: 1.221 ms
+
+Size 16384:
+Time for bitonic_CUDA: 118.373 ms
+Time for bitonic_OpenCL: 93.109 ms
+Time for Bitonicsort_CPU: 7.765 ms
+Time for STL: 2.697 ms
+
+Size 32768:
+Time for bitonic_CUDA: 117.189 ms
+Time for bitonic_OpenCL: 155.027 ms
+Time for Bitonicsort_CPU: 17.256 ms
+Time for STL: 5.907 ms
+
+Size 65536:
+Time for bitonic_CUDA: 124.516 ms
+Time for bitonic_OpenCL: 98.585 ms
+Time for Bitonicsort_CPU: 38.161 ms
+Time for STL: 13.226 ms
+
+Size 131072:
+Time for bitonic_CUDA: 129.06 ms
+Time for bitonic_OpenCL: 102.41 ms
+Time for Bitonicsort_CPU: 81.503 ms
+Time for STL: 27.104 ms
+
+Size 262144:
+Time for bitonic_CUDA: 145.805 ms
+Time for bitonic_OpenCL: 106.824 ms
+Time for Bitonicsort_CPU: 180.299 ms
+Time for STL: 57.355 ms
+
+Size 524288:
+Time for bitonic_CUDA: 176.082 ms
+Time for bitonic_OpenCL: 112.684 ms
+Time for Bitonicsort_CPU: 405.805 ms
+Time for STL: 121.053 ms
+
+Size 1048576:
+Time for bitonic_CUDA: 259.582 ms
+Time for bitonic_OpenCL: 132.96 ms
+Time for Bitonicsort_CPU: 834.99 ms
+Time for STL: 252.679 ms
+
+Size 2097152:
+Time for bitonic_CUDA: 395.11 ms
+Time for bitonic_OpenCL: 124.733 ms
+Time for Bitonicsort_CPU: 1801.74 ms
+Time for STL: 529.211 ms
+
+Size 4194304:
+Time for bitonic_CUDA: 726.455 ms
+Time for bitonic_OpenCL: 133.836 ms
+Time for Bitonicsort_CPU: 3880.04 ms
+Time for STL: 1119.82 ms
+
+Size 8388608:
+Time for bitonic_CUDA: 1437.33 ms
+Time for bitonic_OpenCL: 149.959 ms
+Time for Bitonicsort_CPU: 8321.92 ms
+Time for STL: 2328.46 ms
+
+Size 16777216:
+Time for bitonic_CUDA: 2978.91 ms
+Time for bitonic_OpenCL: 180.462 ms
+Time for Bitonicsort_CPU: 17821.6 ms
+Time for STL: 4858.65 ms
+
+Size 33554432:
+Time for bitonic_CUDA: 6317.4 ms
+Time for bitonic_OpenCL: 238.746 ms
+Time for Bitonicsort_CPU: 39289.1 ms
+Time for STL: 10130.5 ms
+
+Size 67108864:
+Time for bitonic_CUDA: 15470.8 ms
+Time for bitonic_OpenCL: 348.607 ms
+Time for Bitonicsort_CPU: 83947.2 ms
+Time for STL: 21145.7 ms
+
+
+===================
+not multiples of 1024:
+===================
+
+Size 1025:
+Time for bitonic_CUDA: 124.955 ms
+Time for bitonic_OpenCL: 134.929 ms
+Time for Bitonicsort_CPU: 0.281 ms
+Time for STL: 0.132 ms
+
+Size 2050:
+Time for bitonic_CUDA: 116.038 ms
+Time for bitonic_OpenCL: 138.798 ms
+Time for Bitonicsort_CPU: 0.552 ms
+Time for STL: 0.279 ms
+
+Size 4100:
+Time for bitonic_CUDA: 117.128 ms
+Time for bitonic_OpenCL: 142.115 ms
+Time for Bitonicsort_CPU: 1.461 ms
+Time for STL: 0.609 ms
+
+Size 8200:
+Time for bitonic_CUDA: 117.755 ms
+Time for bitonic_OpenCL: 144.878 ms
+Time for Bitonicsort_CPU: 3.295 ms
+Time for STL: 1.266 ms
+
+Size 16400:
+Time for bitonic_CUDA: 118.431 ms
+Time for bitonic_OpenCL: 148.683 ms
+Time for Bitonicsort_CPU: 7.607 ms
+Time for STL: 2.826 ms
+
+Size 32800:
+Time for bitonic_CUDA: 120.032 ms
+Time for bitonic_OpenCL: 152.84 ms
+Time for Bitonicsort_CPU: 16.76 ms
+Time for STL: 5.957 ms
+
+Size 65600:
+Time for bitonic_CUDA: 122.893 ms
+Time for bitonic_OpenCL: 156.375 ms
+Time for Bitonicsort_CPU: 37.231 ms
+Time for STL: 12.443 ms
+
+Size 131200:
+Time for bitonic_CUDA: 128.911 ms
+Time for bitonic_OpenCL: 159.907 ms
+Time for Bitonicsort_CPU: 81.506 ms
+Time for STL: 26.879 ms
+
+Size 262400:
+Time for bitonic_CUDA: 150.321 ms
+Time for bitonic_OpenCL: 164.694 ms
+Time for Bitonicsort_CPU: 177.833 ms
+Time for STL: 56.717 ms
+
+Size 524800:
+Time for bitonic_CUDA: 184.43 ms
+Time for bitonic_OpenCL: 168.514 ms
+Time for Bitonicsort_CPU: 387.341 ms
+Time for STL: 121.537 ms
+
+Size 1049600:
+Time for bitonic_CUDA: 261.094 ms
+Time for bitonic_OpenCL: 172.425 ms
+Time for Bitonicsort_CPU: 838.307 ms
+Time for STL: 256.168 ms
+
+Size 2099200:
+Time for bitonic_CUDA: 427.24 ms
+Time for bitonic_OpenCL: 182.035 ms
+Time for Bitonicsort_CPU: 1811.98 ms
+Time for STL: 531.774 ms
+
+Size 4198400:
+Time for bitonic_CUDA: 790.362 ms
+Time for bitonic_OpenCL: 192.52 ms
+Time for Bitonicsort_CPU: 4031.03 ms
+Time for STL: 1114.98 ms
+
+Size 8396800:
+Time for bitonic_CUDA: 1549.13 ms
+Time for bitonic_OpenCL: 206.511 ms
+Time for Bitonicsort_CPU: 8369.33 ms
+Time for STL: 2349.47 ms
+
+Size 16793600:
+Time for bitonic_CUDA: 3206.41 ms
+Time for bitonic_OpenCL: 238.319 ms
+Time for Bitonicsort_CPU: 17938.3 ms
+Time for STL: 4929.56 ms
+
+Size 33587200:
+Time for bitonic_CUDA: 6776.5 ms
+Time for bitonic_OpenCL: 295.011 ms
+Time for Bitonicsort_CPU: 39186.5 ms
+Time for STL: 10162.6 ms
+
+
+===================
+big numbers:
+===================
+
+Size 67108864:
+Time for bitonic_CUDA: 15503.9 ms
+Time for bitonic_OpenCL: 409.903 ms
+Time for Bitonicsort_CPU: 82868.6 ms
+Time for STL: 21254.3 ms
+
+Size 134217728:
+Time for bitonic_CUDA: 32833.7 ms
+Time for bitonic_OpenCL: 665.812 ms
+Time for Bitonicsort_CPU: 176345 ms
+Time for STL: 44086.2 ms
+
+Size 268435456:
+Time for bitonic_CUDA: 64410.2 ms
+Time for bitonic_OpenCL: 1090.45 ms
+Time for Bitonicsort_CPU: 373232 ms
+Time for STL: 91437.6 ms
+
+test0 ok
+some error 84
